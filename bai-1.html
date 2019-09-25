@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 1</title>
+</head>
+<body>
+    <script>
+        let sinh_hoc
+        let toan_hoc
+        let vat_ly
+        sinh_hoc = prompt('điểm sinh học là :')
+        toan_hoc = prompt('điểm toán học là :')
+        vat_ly = prompt('điểm vật lý là :')
+        sinh_hoc = parseInt(sinh_hoc)
+        toan_hoc = parseInt(toan_hoc)
+        vat_ly = parseInt(vat_ly)
+        let tong_diem = sinh_hoc + toan_hoc + vat_ly;
+        let trung_binh = tong_diem/3
+        document.write('điểm trung bình 3 môn là :' + trung_binh)
+        document.write('<br/>')
+        document.write('diểm tổng 3 môn là :' + tong_diem)
+    </script>
+
+</body>
+</html>
